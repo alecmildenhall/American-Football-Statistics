@@ -17,10 +17,16 @@ QBdata['OINTRATE'] = QBdata['Int']/QBdata['Att']
 ## calculate the QB rating based on Brian Burke's regression
 QBdata['OurRating'] = (1.543*QBdata['TRUOPASS']) - (50.0957*QBdata['OINTRATE'])
 
-print(tabulate(QBdata[['Player','OldQBR','TOTALQBR','OurRating']], headers='keys', tablefmt='psql'))
+# Open output file
+with open("outputs/output.txt", "w") as f:
+    # Write QB ratings comparison table
+    f.write(tabulate(QBdata[['Player','OldQBR','TOTALQBR','OurRating']], headers='keys', tablefmt='psql'))
+    f.write("\n\n")
+    
+    # Write correlation matrix
+    f.write("++++++++++++++++++++++ Correlation Matrix ++++++++++++++++++++++\n")
+    corr = QBdata[['OldQBR','TOTALQBR','OurRating']].corr()
+    f.write(str(corr))
+    f.write("\n")
 
-# correlation matrix
-print("++++++++++++++++++++++ Correlation Matrix ++++++++++++++++++++++")
-corr = QBdata[['OldQBR','TOTALQBR','OurRating']].corr()
-
-print(corr)
+print("Output written to outputs/output.txt")
