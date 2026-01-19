@@ -1,0 +1,89 @@
+================================================================================
+SEATTLE SEAHAWKS PERFORMANCE ANALYSIS (2014-2017)
+================================================================================
+
+
+================================================================================
+SEAHAWKS YEAR-BY-YEAR PERFORMANCE
+================================================================================
+
+2014 Season:
+  Actual Margin:     132.0 points
+  Predicted Margin:  152.8 points
+  Difference:        -20.8 points (underperformed)
+
+  Key Stats:
+    Return TDs:     3
+    Penalty Diff:   54
+    Pass Yards/Att: 7.5 (Def: 5.9)
+    Rush Yards/Att: 5.2 (Def: 3.5)
+    Turnovers:      18 (Forced: 26)
+
+2015 Season:
+  Actual Margin:     124.0 points
+  Predicted Margin:  138.8 points
+  Difference:        -14.8 points (underperformed)
+
+  Key Stats:
+    Return TDs:     5
+    Penalty Diff:   24
+    Pass Yards/Att: 7.5 (Def: 6.1)
+    Rush Yards/Att: 4.5 (Def: 3.5)
+    Turnovers:      18 (Forced: 16)
+
+2016 Season:
+  Actual Margin:      57.0 points
+  Predicted Margin:   50.7 points
+  Difference:          6.3 points (overperformed)
+
+  Key Stats:
+    Return TDs:     2
+    Penalty Diff:   16
+    Pass Yards/Att: 7.2 (Def: 6.8)
+    Rush Yards/Att: 4.0 (Def: 3.4)
+    Turnovers:      18 (Forced: 18)
+
+2017 Season:
+  Actual Margin:      33.0 points
+  Predicted Margin:   61.6 points
+  Difference:        -28.6 points (underperformed)
+
+  Key Stats:
+    Return TDs:     5
+    Penalty Diff:   45
+    Pass Yards/Att: 6.6 (Def: 6.0)
+    Rush Yards/Att: 4.0 (Def: 4.0)
+    Turnovers:      18 (Forced: 26)
+
+================================================================================
+SEAHAWKS 4-YEAR AVERAGES (2014-2017)
+================================================================================
+Average Margin:         86.5
+Average Pass Yards/A:   7.20
+Average Def Pass Y/A:   6.20
+Average Rush Yards/A:   4.42
+Average Def Rush Y/A:   3.60
+Total Return TDs:     15
+
+================================================================================
+COMPARISON TO LEAGUE
+================================================================================
+Seahawks Avg Margin:    86.5
+League Avg Margin:      -3.8
+Seahawks vs League:    +90.3 points better
+
+================================================================================
+MODEL COEFFICIENTS (What Matters Most)
+================================================================================
+Pass Yards/Attempt:    +69.04
+Def Pass Yards/Att:    -53.68
+Rush Yards/Attempt:    +23.24
+Def Rush Yards/Att:    -39.19
+Return TDs:             +9.87
+Turnovers:              -5.00
+Defensive TOs:          +2.01
+Penalty Differential:   -0.44
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
